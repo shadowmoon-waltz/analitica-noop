@@ -1,3 +1,5 @@
+[![Release](https://jitpack.io/v/shadowmoon-waltz/analitica-noop.svg)](https://jitpack.io/#shadowmoon-waltz/analitica-noop)
+
 Modified version of [Analitica Library](https://github.com/federicoiosue/analitica) with only mock analytic helper.
 
 Currently on a trackerless-app-build kick, as I don't use them often at the moment; that being said, I think they are useful and not an issue with opt-in/out.
