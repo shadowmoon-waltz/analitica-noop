@@ -10,7 +10,6 @@ public class AnalyticsHelperFactory extends AnalyticsHelperAbstractFactory {
 
     @Override
     public AnalyticsHelper getAnalyticsHelper(Context context, boolean enable, String... identifiers) throws AnalyticsInstantiationException, InvalidIdentifierException {
-        GoogleAnalyticsServiceIdentifier serviceIdentifier = new GoogleAnalyticsServiceIdentifier(identifiers);
-        return new GoogleAnalyticsHelper(context, enable, serviceIdentifier);
+        return new MockAnalyticsHelper();
     }
 }
